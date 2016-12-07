@@ -1,0 +1,49 @@
+.primary-nav {
+    text-align: center;
+    
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+        transition: all 0.4s ease-out;
+        opacity: 0;
+        animation: fadeInNavBar 3s 1;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        &:hover,
+        &:focus {
+            color: $hoverBlue;
+            filter: drop-shadow( 0px 0px 25px rgba(255, 255, 255, 0.6) );
+            
+        }
+
+        @mixin atMedium {
+            font-size: 1.7rem;
+        }
+        
+    }
+    &--l-padding {
+        padding-left: 20px;
+        
+        @mixin atSmall {
+            padding-left: 0;
+        }
+    }
+    &--r-padding {
+        padding-right: 20px;
+
+         @mixin atSmall {
+            padding-right: 0;
+        }
+    }
+    &--t-padding {
+    }
+    &--t-padding-m {
+        padding-right: 10px;
+         @mixin atSmall {
+            padding-right: 0;
+        }
+    }
+    
+}

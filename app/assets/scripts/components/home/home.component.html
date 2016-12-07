@@ -1,0 +1,21 @@
+<div class="container">
+
+    <div class="wrapper">
+        <div [@fadeInLogo]="true" class="wrapper__logo">
+            <ng-content></ng-content>
+            <img src="./app/assets/images/cg_logo.svg" alt="Creative Gains Logo" />
+        </div>
+        <div class="row row-home-nav">
+            <div class="row row__small-6 primary-nav">
+                <a class="primary-nav--r-padding" a routerLink="about">about</a>
+            </div>
+            <div class="row row__small-6 primary-nav">
+                <a class="primary-nav--l-padding" routerLink="portfolio">portfolio</a>
+            </div>
+            <div class="row row__small-12 row--t-margin  primary-nav">
+                <a class="primary-nav--t-padding primary-nav--r-padding-m" a routerLink="contact">contact</a>
+            </div>
+        </div>
+    </div>
+
+</div>

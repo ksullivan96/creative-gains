@@ -1,0 +1,13 @@
+.row {
+    
+    @mixin clearfix;
+
+    &__small-6 {
+        float: left;
+        width: 50%;
+    }
+
+    &--t-margin  {
+        margin-top: 30px;
+    }
+}

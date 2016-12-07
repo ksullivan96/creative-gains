@@ -1,0 +1,13 @@
+.divLoading {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+
+    @mixin atMedium {
+        top: 45%;
+    }
+
+
+}

@@ -1,0 +1,17 @@
+.wrapper {
+    margin: 0 auto;
+    max-height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    
+    img {
+        max-height: 75vh;
+        animation: lightbulb 4s 1;
+        animation-delay: 4s;
+        animation-fill-mode: forwards;
+       }
+       
+}
